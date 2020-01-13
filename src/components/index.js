@@ -40,6 +40,7 @@ export default class extends Component {
     const _style = objectAssign({ top, right, bottom, left }, style);
     return (
       <section
+        data-smooth={smooth}
         className={classNames(CLASS_NAME, className)}
         style={_style}
         {...props}
