@@ -14,18 +14,29 @@ export default class extends Component {
     top: PropTypes.number,
     right: PropTypes.number,
     bottom: PropTypes.number,
-    left: PropTypes.number
+    left: PropTypes.number,
+    smooth: PropTypes.bool
   };
 
   static defaultProps = {
     top: 0,
     right: 0,
     bottom: 0,
-    left: 0
+    left: 0,
+    smooth: false
   };
 
   render() {
-    const { className, top, right, bottom, left, style, ...props } = this.props;
+    const {
+      className,
+      top,
+      right,
+      bottom,
+      left,
+      style,
+      smooth,
+      ...props
+    } = this.props;
     const _style = objectAssign({ top, right, bottom, left }, style);
     return (
       <section

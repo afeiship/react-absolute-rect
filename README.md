@@ -6,13 +6,14 @@
 npm install -S @feizheng/react-absolute-rect
 ```
 ## properties
-| property  | type | description |
-| --------- | ---- | ----------- |
-| className | -    | -           |
-| top       | -    | -           |
-| right     | -    | -           |
-| bottom    | -    | -           |
-| left      | -    | -           |
+| property  | type    | description               |
+| --------- | ------- | ------------------------- |
+| className | -       | -                         |
+| smooth    | Boolean | Set smooth scroll effect. |
+| top       | -       | -                         |
+| right     | -       | -                         |
+| bottom    | -       | -                         |
+| left      | -       | -                         |
 
 ## usage
 1. import css

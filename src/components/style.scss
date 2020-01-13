@@ -3,4 +3,8 @@ $react-absolute-rect-options: () !default;
 .react-absolute-rect {
   position: absolute;
   overflow: auto;
+
+  &[data-smooth="true"] {
+    scroll-behavior: smooth;
+  }
 }
