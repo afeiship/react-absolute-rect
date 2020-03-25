@@ -7,8 +7,9 @@ import objectAssign from 'object-assign';
 
 const CLASS_NAME = 'react-absolute-rect';
 
-export default class extends Component {
+export default class ReactAbsoluteRect extends Component {
   static displayName = CLASS_NAME;
+  static version = '__VERSION__';
   static propTypes = {
     className: PropTypes.string,
     top: PropTypes.number,
@@ -19,10 +20,25 @@ export default class extends Component {
   };
 
   static defaultProps = {
+    /**
+     * Css style.top(number).
+     */
     top: 0,
+    /**
+     * Css style.right(number).
+     */
     right: 0,
+    /**
+     * Css style.bottom(number).
+     */
     bottom: 0,
+    /**
+     * Css style.left(number).
+     */
     left: 0,
+    /**
+     * If open css-behavior smooth.
+     */
     smooth: false
   };
 
@@ -38,6 +54,7 @@ export default class extends Component {
       ...props
     } = this.props;
     const _style = objectAssign({ top, right, bottom, left }, style);
+
     return (
       <section
         data-smooth={smooth}

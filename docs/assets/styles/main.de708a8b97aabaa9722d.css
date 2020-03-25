@@ -1,0 +1,2 @@
+*{margin:0;padding:0}html,body{height:100%}.react-absolute-rect{position:absolute;overflow:auto}.react-absolute-rect[data-smooth="true"]{scroll-behavior:smooth}.app-container{border:1px solid steelblue;position:relative;width:50%;top:50px;margin:0px auto 0;text-align:center}.app-container h1{margin:20px auto}.app-container img{width:30%}.app-container .button{background:#3cc51f;width:100%;display:block;margin-bottom:10px;border-radius:10px;color:#fff;padding:20px;border:none}.app-container .button:active{background:#2f9918}.app-container .button:focus{outline:none}
+

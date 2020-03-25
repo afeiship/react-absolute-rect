@@ -3,18 +3,26 @@
   padding: 0;
 }
 html,
-body,
-#app,
-.app-container {
+body{
   height: 100%;
 }
 
 @import "@/components/style.scss";
 
 .app-container {
-  margin: 60px;
   border:1px solid steelblue;
   position: relative;
+  width: 50%;
+  top: 50px;
+  margin: 0px auto 0;
+  text-align: center;
+  h1{
+    margin:20px auto;
+  }
+
+  img{
+    width: 30%;
+  }
   .button {
     background: #3cc51f;
     width: 100%;

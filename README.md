@@ -5,15 +5,22 @@
 ```shell
 npm install -S @feizheng/react-absolute-rect
 ```
+
+## update
+```shell
+npm update @feizheng/react-absolute-rect
+```
+
 ## properties
-| property  | type    | description               |
-| --------- | ------- | ------------------------- |
-| className | -       | -                         |
-| smooth    | Boolean | Set smooth scroll effect. |
-| top       | -       | -                         |
-| right     | -       | -                         |
-| bottom    | -       | -                         |
-| left      | -       | -                         |
+| Name      | Type   | Default | Description |
+| --------- | ------ | ------- | ----------- |
+| className | string | -       |
+| top       | number | 0       |
+| right     | number | 0       |
+| bottom    | number | 0       |
+| left      | number | 0       |
+| smooth    | bool   | false   |             |
+
 
 ## usage
 1. import css
@@ -25,7 +32,7 @@ npm install -S @feizheng/react-absolute-rect
   ```
 2. import js
   ```js
-  import ReactAbsoluteRect from '../src/main';
+  import ReactAbsoluteRect from '@feizheng/react-absolute-rect';
   import ReactDOM from 'react-dom';
   import React from 'react';
   import './assets/style.scss';
@@ -36,20 +43,49 @@ npm install -S @feizheng/react-absolute-rect
       return (
         <div className="app-container" style={{ height: 400 }}>
           <ReactAbsoluteRect>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
-            <p><img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" /></p>
+            <h1>ReactAbsoluteRect</h1>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
+            <p>
+              <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
+            </p>
           </ReactAbsoluteRect>
         </div>
       );
@@ -57,6 +93,7 @@ npm install -S @feizheng/react-absolute-rect
   }
 
   ReactDOM.render(<App />, document.getElementById('app'));
+
   ```
 
 ## documentation
