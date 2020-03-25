@@ -11,34 +11,37 @@ export default class ReactAbsoluteRect extends Component {
   static displayName = CLASS_NAME;
   static version = '__VERSION__';
   static propTypes = {
+    /**
+     * The extended className for component.
+     */
     className: PropTypes.string,
+    /**
+     * Css style.top(number).
+     */
     top: PropTypes.number,
+    /**
+     * Css style.right(number).
+     */
     right: PropTypes.number,
+    /**
+     * Css style.bottom(number).
+     */
     bottom: PropTypes.number,
+    /**
+     * Css style.left(number).
+     */
     left: PropTypes.number,
+    /**
+     * If open css-behavior smooth.
+     */
     smooth: PropTypes.bool
   };
 
   static defaultProps = {
-    /**
-     * Css style.top(number).
-     */
     top: 0,
-    /**
-     * Css style.right(number).
-     */
     right: 0,
-    /**
-     * Css style.bottom(number).
-     */
     bottom: 0,
-    /**
-     * Css style.left(number).
-     */
     left: 0,
-    /**
-     * If open css-behavior smooth.
-     */
     smooth: false
   };
 

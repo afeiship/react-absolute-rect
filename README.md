@@ -12,14 +12,14 @@ npm update @feizheng/react-absolute-rect
 ```
 
 ## properties
-| Name      | Type   | Default | Description |
-| --------- | ------ | ------- | ----------- |
-| className | string | -       |
-| top       | number | 0       |
-| right     | number | 0       |
-| bottom    | number | 0       |
-| left      | number | 0       |
-| smooth    | bool   | false   |             |
+| Name      | Type   | Default | Description                           |
+| --------- | ------ | ------- | ------------------------------------- |
+| className | string | -       | The extended className for component. |
+| top       | number | 0       | Css style.top(number).                |
+| right     | number | 0       | Css style.right(number).              |
+| bottom    | number | 0       | Css style.bottom(number).             |
+| left      | number | 0       | Css style.left(number).               |
+| smooth    | bool   | false   | If open css-behavior smooth.          |
 
 
 ## usage
