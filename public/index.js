@@ -1,13 +1,15 @@
-import ReactAbsoluteRect from '../src/main';
-import ReactDOM from 'react-dom';
+import ReactDemokit from '@jswork/react-demokit';
 import React from 'react';
+import ReactDOM from 'react-dom';
+import ReactAbsoluteRect from '../src/main';
 import './assets/style.scss';
 
 class App extends React.Component {
-  componentDidMount() {}
   render() {
     return (
-      <div className="app-container" style={{ height: 400 }}>
+      <ReactDemokit
+        className="p-3 app-container"
+        url="https://github.com/afeiship/react-absolute-rect">
         <ReactAbsoluteRect>
           <h1>ReactAbsoluteRect</h1>
           <p>
@@ -53,7 +55,7 @@ class App extends React.Component {
             <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
           </p>
         </ReactAbsoluteRect>
-      </div>
+      </ReactDemokit>
     );
   }
 }

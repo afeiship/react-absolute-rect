@@ -1,0 +1,5 @@
+.react-absolute-rect {
+  position: absolute;
+  overflow: auto; }
+  .react-absolute-rect[data-smooth="true"] {
+    scroll-behavior: smooth; }

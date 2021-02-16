@@ -1,44 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-html,
-body{
-  height: 100%;
-}
-
 @import "@/components/style.scss";
+@import "~@jswork/react-github-corner/dist/style.scss";
+@import "~@jswork/react-sw-update-tips/dist/style.scss";
+@import "~@jswork/react-demokit/dist/style.scss";
 
 .app-container {
-  border:1px solid steelblue;
-  position: relative;
-  width: 50%;
-  top: 50px;
-  margin: 0px auto 0;
-  text-align: center;
-  h1{
-    margin:20px auto;
-  }
-
-  img{
-    width: 30%;
-  }
-  .button {
-    background: #3cc51f;
-    width: 100%;
-    display: block;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    color: #fff;
-    padding: 20px;
-    border: none;
-
-    &:active {
-      background: darken(#3cc51f, 10%);
-    }
-
-    &:focus {
-      outline: none;
-    }
+  .is-body {
+    border: 1px solid steelblue;
+    position: relative;
+    width: 50%;
+    margin: 0px auto 0;
+    text-align: center;
+    background: #fff;
   }
 }
