@@ -58,8 +58,7 @@ export default class ReactAbsoluteRect extends Component {
   }
 
   render() {
-    const { className, top, right, bottom, left, style, smooth, ...props } =
-      this.props;
+    const { className, top, right, bottom, left, style, smooth, ...props } = this.props;
     const _style = { ...this.trblStyle, ...style };
 
     return (
