@@ -10,7 +10,7 @@ class App extends React.Component {
       <ReactDemokit
         className="p-3 app-container"
         url="https://github.com/afeiship/react-absolute-rect">
-        <ReactAbsoluteRect>
+        <ReactAbsoluteRect trbl={20}>
           <h1>ReactAbsoluteRect</h1>
           <p>
             <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
