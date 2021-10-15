@@ -12,14 +12,15 @@ npm install -S @jswork/react-absolute-rect
 ```
 
 ## properties
-| Name      | Type   | Required | Default | Description                           |
-| --------- | ------ | -------- | ------- | ------------------------------------- |
-| className | string | false    | -       | The extended className for component. |
-| top       | number | false    | 0       | Css style.top(number).                |
-| right     | number | false    | 0       | Css style.right(number).              |
-| bottom    | number | false    | 0       | Css style.bottom(number).             |
-| left      | number | false    | 0       | Css style.left(number).               |
-| smooth    | bool   | false    | false   | If open css-behavior smooth.          |
+| Name      | Type   | Required | Default | Description                             |
+| --------- | ------ | -------- | ------- | --------------------------------------- |
+| className | string | false    | -       | The extended className for component.   |
+| top       | number | false    | -       | Css style.top(number).                  |
+| right     | number | false    | -       | Css style.right(number).                |
+| bottom    | number | false    | -       | Css style.bottom(number).               |
+| left      | number | false    | -       | Css style.left(number).                 |
+| trbl      | number | false    | 0       | Css style for top, right, bottom, left. |
+| smooth    | bool   | false    | false   | If open css-behavior smooth.            |
 
 
 ## usage
@@ -47,7 +48,7 @@ npm install -S @jswork/react-absolute-rect
         <ReactDemokit
           className="p-3 app-container"
           url="https://github.com/afeiship/react-absolute-rect">
-          <ReactAbsoluteRect>
+          <ReactAbsoluteRect trbl={20}>
             <h1>ReactAbsoluteRect</h1>
             <p>
               <img src="http://himg.bdimg.com/sys/portrait/item/be10475f686d6c73db00.jpg" />
